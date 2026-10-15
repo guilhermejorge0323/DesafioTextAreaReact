@@ -1,16 +1,37 @@
-# React + Vite
+# 📝 TextArea Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido com base num desafio técnico da **BairesDev**. Durante a realização da prova, infelizmente a minha conexão de internet caiu e não consegui submeter o código a tempo. Como não gosto de deixar tarefas inacabadas nem ficar para trás, decidi implementar toda a solução por conta própria e disponibilizar aqui no GitHub.
 
-Currently, two official plugins are available:
+> ⚠️ **Nota sobre o projeto:** O foco principal deste repositório foi unicamente **testar e praticar a lógica de estado/interatividade com React**. O design e a arquitetura do código estão simples e amadores de propósito, servindo como um registro do processo de **errar, praticar e aprender**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Ajuste de Fonte:** Controle dinâmico de tamanho da fonte (`A+` / `A-` com limites mínimo e máximo).
+- **Estilização de Texto:**
+  - Alternância para **Negrito** (`fontWeight`)
+  - Alternância para **Itálico** (`fontStyle`)
+  - Alternância de **Aspas** no início/fim do texto
+- **Alinhamento:** Suporte a alinhamento à esquerda, centro e direita (`textAlign`).
+- **Limpeza Rápida:** Botão para resetar o conteúdo da área de texto.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- **React** (com TypeScript)
+- **Tailwind CSS** & **clsx** (estilização e controle condicional de classes)
+- **Lucide React** (ícones)
+
+---
+
+## 💡 Aprendizados
+
+- Elevação de estado (*Lifting State Up*) para conectar o painel de ações ao campo de texto.
+- Manipulação dinâmica de estilos inline concatenados com estados do React.
+- Validação e tratamento simples de strings.
+
+---
+
+*Errando, praticando e evoluindo sempre! 🚀*
